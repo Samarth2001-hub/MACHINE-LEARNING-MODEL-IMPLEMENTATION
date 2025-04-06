@@ -31,7 +31,9 @@ The program relies on a set of powerful Python libraries from the scikit-learn e
 
 This spam email detection code offers several advantages, making it a valuable tool for both learning and practical application. By leveraging scikit-learn's robust machine learning libraries, it provides an efficient and straightforward way to classify emails, achieving reasonable accuracy with minimal data and computational resources, which is ideal for small-scale projects or educational purposes. The use of the Naive Bayes classifier ensures fast training and prediction times, even with larger datasets, due to its simplicity and assumption of feature independence, while the CountVectorizer enables seamless conversion of text to numerical features, simplifying the preprocessing step. The code's modular structure allows for easy modification—such as swapping algorithms or adding preprocessing steps—making it adaptable to different datasets or requirements. Additionally, its built-in evaluation metrics and probability outputs offer clear insights into performance and confidence levels, empowering users to assess and refine the model effectively. Overall, this implementation balances simplicity, speed, and flexibility, providing a practical foundation for spam detection that can be scaled or enhanced as needed.
 
+OUTPUT :
 
+![Image](https://github.com/user-attachments/assets/a2fffb3f-2de8-424b-86f5-d61e2a1b28d6)
 
 
 
