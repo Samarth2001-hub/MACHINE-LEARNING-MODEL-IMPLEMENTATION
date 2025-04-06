@@ -20,11 +20,11 @@ d) Trains a Multinomial Naive Bayes classifier
 e) Evaluates the model's performance
 f) Makes predictions on new emails
 
-CountVectorizer: Converts text to numerical features
-MultinomialNB: Naive Bayes classifier for multinomial distributions
-train_test_split: Splits data into training and testing sets
-accuracy_score & classification_report: Evaluation metrics
-numpy: Numerical computing library
+a) CountVectorizer: Converts text to numerical features
+b) MultinomialNB: Naive Bayes classifier for multinomial distributions
+c) train_test_split: Splits data into training and testing sets
+d) accuracy_score & classification_report: Evaluation metrics
+e) numpy: Numerical computing library
 
 This Python program implements a spam email detection system using scikit-learn's machine learning capabilities. It begins by importing necessary libraries and defining a small dataset of emails labeled as spam (1) or not spam (0). The text data is transformed into numerical features using CountVectorizer, which creates a word count matrix, and then split into training and testing sets. A Multinomial Naive Bayes classifier is trained on the training data to learn patterns distinguishing spam from legitimate emails. The model's performance is evaluated using accuracy and a detailed classification report, comparing predictions against the test set labels. Finally, the script demonstrates real-world application by classifying two new emails and providing both their predicted labels and spam probabilities, showcasing a complete pipeline from data preprocessing to prediction in a simple yet effective spam detection model.
 The program relies on a set of powerful Python libraries from the scikit-learn ecosystem and NumPy, each serving a distinct purpose in the spam email detection model. Scikit-learn, installed via pip install scikit-learn, provides the core machine learning functionality: CountVectorizer converts raw text into a numerical matrix of word counts, MultinomialNB implements the Naive Bayes classifier suited for text classification, train_test_split divides the dataset into training and testing subsets for model validation, and accuracy_score along with classification_report offer tools to evaluate the model's performance with metrics like precision and recall. Additionally, NumPy, installed with pip install numpy, is a fundamental library for numerical computing, enabling efficient array operations and mathematical computations that underpin scikit-learn's data processing and model training. Together, these libraries form a robust foundation for building, training, and assessing the spam detection system, leveraging both machine learning algorithms and numerical efficiency.
